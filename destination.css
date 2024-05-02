@@ -1,0 +1,61 @@
+body{
+    background-image: url(./assets/destination/background-destination-desktop.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.btn{
+    color: white;
+}
+.rotate{
+    width: auto;
+    -webkit-animation: spin 30s linear infinite;
+    -moz-animation: spin 30s linear infinite;
+     animation: spin 30s linear infinite;
+}
+
+@-webkit-keyframes spin{
+    100%{-webkit-transform: rotate(360deg);}
+   }
+   @-moz-keyframes spin{
+    100% {-webkit-transform: rotate(368deg);}
+   }
+   @keyframes spin{
+    100%{-webkit-transform: rotate(368deg);}
+   }
+   
+@media screen and (max-width: 992px){
+    body{
+        background-image: url(./assets/destination/background-destination-tablet.jpg);
+    }
+    /* .images{
+        width: 170px;
+       height: 170px;
+       top: 139px;
+       left: 103px;
+   }*/
+
+
+} 
+
+@media screen and (max-width: 768px){
+    body{
+        background-image: url(./assets/destination/background-destination-mobile.jpg);
+
+    }
+
+.images{
+     width: 170px;
+    height: 170px;
+    top: 139px;
+    left: 103px;
+}
+    .page-container{
+        box-sizing: none;
+    }
+    .detail-container h1{
+        font-size: 56px;
+        margin-bottom: 24px;
+    }
+  
+}
