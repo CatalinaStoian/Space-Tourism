@@ -12,26 +12,39 @@ body{
     background-color: white;
     opacity: 0.23;
     border-radius: 100%;
+    padding: 6px;
 }
 
 .crew-btn button:focus{
     background-color: white;
     opacity: 100%;
     border-radius: 50%;
-};
+}
 
 .image-container img{
-    width: 568.07px;
-height: 712px;
-top: 198px;
-left: 734.93px;
-gap: 0px;
-opacity: 0px;
-
+    width: auto;
+    height: auto;
 } 
+.detail-container h1{
+    font-size: 56px;
+    margin-bottom: 24px;
+}
 @media screen and (max-width: 992px){
     body{
         background-image: url(./assets/crew/background-crew-tablet.jpg);
+    }
+    .detail-container h1{
+        font-size: 40px;
+    }
+    .detail-container h2{
+        font-size: 24px;
+    }
+     .detail-container p{
+        font-size: 16px;
+        width: 100%;
+    } 
+    .crew-btn{
+        margin-bottom: 16px;
     }
 }
 

@@ -19,7 +19,7 @@ fetch('data.json')
         destinationDistance.innerText = moonDestination.distance;
         destinationTravel.innerText = moonDestination.travel;
         destinationImages.innerHTML = `
-            <img src="${moonDestination.images.png}" alt="Moon Image">
+            <img class="images" src="${moonDestination.images.png}" alt="Moon Image">
         `;
       });
   
@@ -30,7 +30,7 @@ fetch('data.json')
         destinationDistance.innerText = marsDestination.distance;
         destinationTravel.innerText = marsDestination.travel;
         destinationImages.innerHTML = `
-            <img src="${marsDestination.images.png}" alt="Mars Image">
+            <img class="images" src="${marsDestination.images.png}" alt="Mars Image">
         `;
       });
   
@@ -41,7 +41,7 @@ fetch('data.json')
         destinationDistance.innerText = europaDestination.distance;
         destinationTravel.innerText = europaDestination.travel;
         destinationImages.innerHTML = `
-            <img src="${europaDestination.images.png}" alt="Europa Image">
+            <img class="images" src="${europaDestination.images.png}" alt="Europa Image">
         `;
       });
   
@@ -52,7 +52,7 @@ fetch('data.json')
         destinationDistance.innerText = titanDestination.distance;
         destinationTravel.innerText = titanDestination.travel;
         destinationImages.innerHTML = `
-            <img src="${titanDestination.images.png}" alt="Titan Image">
+            <img class="images" src="${titanDestination.images.png}" alt="Titan Image">
         `;
       });
 

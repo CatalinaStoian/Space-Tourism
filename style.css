@@ -28,7 +28,10 @@ body{
     justify-content: space-around;
     gap: 24px;
 }
-
+.navbar-title span{
+    font-weight: 700;
+    color: rgba(105, 104, 104, 4.5);
+}
 .detail-container h3{
     font-size: 28px;
     margin-bottom: 50px;
@@ -37,6 +40,7 @@ body{
 .detail-container h2{
     font-size: 32px;
     margin-bottom: 24px;
+    color: rgba(105, 104, 104, 4.5);
 }
 .detail-container h1{
     font-size: 150px;
@@ -111,6 +115,9 @@ border: none;
         justify-content: space-around;
         gap: 24px;
     }
+    .navbar-title{
+        font-size: 20px;
+    }
     .detail-container h3{
         font-size: 16px;
         margin-bottom: 50px;
@@ -127,7 +134,7 @@ border: none;
     
      .detail-container p{
         font-size: 15px;
-        width: 450px;
+        width: 100%;
         line-height: 32px;
     } 
     .home-data h1{

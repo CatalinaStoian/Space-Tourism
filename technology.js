@@ -13,7 +13,7 @@ fetch('data.json')
         technologyName.innerText = technologyDescriptionOne.name;
         technologyDescription.innerText = technologyDescriptionOne.description;
         technologyImage.innerHTML = `
-        <img src="${technologyDescriptionOne.images.portrait}" alt="Technology Image">
+        <img class="img-fluid" src="${technologyDescriptionOne.images.portrait}" alt="Technology Image">
         `
     });
 
@@ -22,7 +22,7 @@ fetch('data.json')
         technologyName.innerText = technologyDescriptionTwo.name;
         technologyDescription.innerText = technologyDescriptionTwo.description;
         technologyImage.innerHTML = `
-        <img src="${technologyDescriptionTwo.images.portrait}" alt="Technology Image">
+        <img class="img-fluid" src="${technologyDescriptionTwo.images.portrait}" alt="Technology Image">
         `
     });
 
@@ -31,7 +31,7 @@ fetch('data.json')
         technologyName.innerText = technologyDescriptionThree.name;
         technologyDescription.innerText = technologyDescriptionThree.description;
         technologyImage.innerHTML = `
-        <img src="${technologyDescriptionThree.images.portrait}" alt="Technology Image">
+        <img class="img-fluid" src="${technologyDescriptionThree.images.portrait}" alt="Technology Image">
         `
     });
 
